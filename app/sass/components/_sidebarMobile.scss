@@ -1,0 +1,96 @@
+@media screen and (min-width: 671px){
+  .sidebarMobile{
+    display: none;
+  }
+}
+@media screen and (max-width: 670px){
+  .break{
+    margin-top: 80px;
+  }
+  .sidebarMobile-container{
+    position: fixed;
+    display: flex;
+    top: 0;
+    background: $primaryBlue;
+    width: calc(100% - 40px);
+    z-index: 1;
+    padding: 10px 20px;
+  }
+
+  .icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    .burger{
+      position: relative;
+      transition: left 0.1s;
+      left: 0;
+      height: 100%;
+      cursor: pointer;
+      svg{
+        height:100%;
+      }
+    }
+  }
+
+  .userMobile{
+    img{
+      height: 50px;
+      width: 50px;
+      border-radius: 100%;
+      background: green;
+    }
+  }
+
+}
+
+/* mobile animation */
+
+.sidebarMobileContainer{
+  height: 100vh;
+  width: 60px;
+  position: fixed;
+  top: 0;
+  background: $primaryBlue;
+  z-index: 2;
+  left: -200px;
+  transition: left 0.3s;
+}
+.sidebarMobile-is-collapsed{
+    transition: left 0.1s;
+    left: 0px;
+}
+.burger-is-active{
+  left: 45px!important;
+  transition: left 0.3s;
+  #Shape1{
+    transform: rotate(47deg) translate(1px, -6px);
+  }
+  #Shape2{
+    display: none;
+  }
+  #Shape3{
+    transform: rotate(-45deg) translate(-16px, -8px);
+  }
+}
+
+.sidebar-is-active-icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 73px;
+  div{
+    margin-bottom: 30px;
+    cursor:pointer;
+  }
+  div:nth-child(1){
+    width: 100%;
+    background-color: white;
+    a svg{
+      height: 20px;
+    padding: 10px;
+    }
+  }
+}

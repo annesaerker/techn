@@ -1,0 +1,18 @@
+.partners-card article {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.partners-card img {
+    // padding-right: 10px;
+}
+
+.partners-card span {
+    line-height: 30px;
+}
+
+.partner-thumb {
+    background-repeat: no-repeat;
+}

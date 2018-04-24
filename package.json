@@ -1,0 +1,47 @@
+{
+  "name": "kea-techn",
+  "version": "1.0.0",
+  "description": "ID Exam Project+",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joingi/kea-techn.git"
+  },
+  "author": "Johann, Eythor, Anne, Herdis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joingi/kea-techn/issues"
+  },
+  "homepage": "https://github.com/joingi/kea-techn#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "browser-sync": "^2.18.13",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-build": "^0.5.3",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-hb": "^6.0.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.3",
+    "gulp-util": "^3.0.8",
+    "pump": "^2.0.0",
+    "run-sequence": "^2.2.0",
+    "uglify": "^0.1.5",
+    "vinyl-ftp": "^0.6.1"
+  },
+  "dependencies": {
+    "chart.js": "^2.7.1",
+    "handlebars": "^4.0.11",
+    "normalize.css": "^7.0.0"
+  }
+}

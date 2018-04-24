@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="HD-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard" transform="translate(-1357.000000, -948.000000)">
+            <g id="Group-8" transform="translate(1358.000000, 949.000000)">
+                <circle id="Oval-8" stroke="#4E5058" cx="11" cy="11" r="11"></circle>
+                <g id="pencil-edit-button-(1)" transform="translate(6.000000, 6.000000)" fill-rule="nonzero" fill="#4E5058">
+                    <path d="M6.21824699,1.66887117 L8.2524732,3.71304064 L3.10328493,8.88744613 L1.07021205,6.84327666 L6.21824699,1.66887117 Z M9.79605743,1.17586436 L8.88887082,0.264234966 C8.53827451,-0.0880783222 7.96897856,-0.0880783222 7.6171911,0.264234966 L6.74819704,1.13748477 L8.78242325,3.18167323 L9.79605743,2.16307496 C10.0679809,1.88980084 10.0679809,1.44911948 9.79605743,1.17586436 Z M0.00566077157,9.71652139 C-0.0313595363,9.88394763 0.119066189,10.03397 0.285695388,9.99325348 L2.55249913,9.4409483 L0.519426259,7.39677883 L0.00566077157,9.71652139 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

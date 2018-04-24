@@ -1,0 +1,122 @@
+.events-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    text-decoration: none;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0 rgba(43,59,93,0.50);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    transition: all 0.1s ease-in;
+    // margin: 10px;
+    &:hover {
+        top: -2;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    }
+  .events-card-text{
+    height: 100%;
+    width: 100%;
+    span{
+      float: right;
+      margin-right: 15px;
+      margin-top: 10px;
+    }
+  }
+  .events-card-text:nth-child(1){
+    background: #f3f3f3ab;
+  }
+  .events-card-text:nth-child(2){
+
+  }
+  .events-card-text:nth-child(3){
+    background: #f3f3f3ab;
+  }
+    // span:nth-child(1){
+    //   text-transform: uppercase;
+    //   margin-left: auto;
+    //   padding-right: 10px;
+    //   font-weight: lighter;
+    //   color:#4E5058;
+    //   font-size: 18px;
+    // }
+
+    h2{
+      text-align: center;
+      font-size: 24px;
+      font-weight: 500;
+    }
+    span:nth-child(3){
+      font-size: 14px;
+      font-weight: 200;
+      text-align: center;
+      color:#4E5058;
+    }
+}
+
+.event-card-container{
+  max-height: 200px;
+  height: 100%;
+  width: calc(100% / 4 - 10px);
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1300px){
+
+  .event-card-container{
+    width: calc(100% / 3 - 10px);
+  }
+}
+@media screen and (max-width: 1064px){
+
+  .event-card-container{
+    width: calc(100% / 2 - 10px);
+  }
+}
+@media screen and (max-width: 842px){
+  // .event-time-1{
+  //   margin: 20px 10px;
+  // }
+
+  .event-card-container{
+    width: calc(100%);
+  }
+  .event-time-filter{
+    display: none !important;
+  }
+}
+
+.event-time-1{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 20px;
+  span{
+    padding: 0 20px;
+  }
+  &:before {
+    content: "";
+    display: flex;
+    align-self: center;
+    width: 20px;
+    height: 2px;
+    width: 50%;
+    background-color:  $primaryRed;
+   }
+   &:after {
+     content: "";
+     display: flex;
+     align-self: center;
+     width: 20px;
+     height: 2px;
+     width: 50%;
+     background-color: $primaryRed;
+    }
+}

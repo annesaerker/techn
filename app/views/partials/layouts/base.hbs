@@ -1,0 +1,48 @@
+{{!-- layouts/base.hbs --}}
+<!doctype html>
+<html>
+
+  <head>
+    <title>
+        {{#if title}} {{title}} {{else}} Base Page Title {{/if}}
+    </title>
+    <link rel="stylesheet" href="css/app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{#> head-block}}
+        {{!-- Custom <head> content per page could be added. --}}
+    {{/head-block}}
+  </head>
+
+    <body>
+
+      {{#> sidebar-block}}
+          {{> includes/sidebar}}
+          {{> includes/sidebarMobile}}
+      {{/sidebar-block}}
+
+
+        <div class="main-container">
+
+          {{#> header-block}}
+          {{/header-block}}
+
+
+          {{#> container-block}}
+              {{> layouts/events-list}}
+          {{/container-block}}
+
+        </div>
+
+
+
+
+        {{#> scripts-block}}
+            {{!-- Custom scripts per page can be added. --}}
+        {{/scripts-block}}
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+        <script src="../.././js/main.js"></script>
+        <script src="../.././js/events.js"></script>
+    </body>
+
+</html>

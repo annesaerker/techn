@@ -1,0 +1,32 @@
+{{!-- pages/partners.hbs --}}
+
+{{#> layouts/base title="Partners" }}
+
+   {{#*inline "sidebar-block"}}
+      {{> includes/sidebar}}
+  {{/inline}}
+
+  {{!-- Let's change the header image for this layout. --}}
+  {{#*inline "header-block"}}
+    {{> includes/header
+      header-src="http://fpoimg.com/400x400"
+      header-alt="header 2 alt title"
+    }}
+  {{/inline}}
+
+
+  {{#> container-block}}
+      {{> layouts/events-list}}
+  {{/container-block}}
+
+  {{!-- Let's override the "footer-block" content. --}}
+  {{#*inline "footer-block"}}
+    <p>We are now overriding the default "footer-block" content with this content.</p>
+  {{/inline}}
+
+  {{!-- Let's add a script for this layout. --}}
+  {{#*inline "scripts-block"}}
+    <script src="../.././js/main.js"></script>
+  {{/inline}}
+
+{{/layouts/base}}

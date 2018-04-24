@@ -1,0 +1,11 @@
+.main-container{
+  height: 100vh;
+  margin-left: 160px;
+  padding: 0 20px;
+  transition: margin-left 0.3s ease-in;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: $primaryBlack;
+}

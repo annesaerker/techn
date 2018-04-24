@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="105px" height="46px" viewBox="0 0 105 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="HD-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Events" transform="translate(-28.000000, -18.000000)">
+            <g id="Group-4" transform="translate(28.000000, 18.000000)">
+                <text id="tech" font-family="Raleway-SemiBold, Raleway" font-size="36" font-weight="500" fill="#FFFFFF">
+                    <tspan x="0.11" y="45">tech</tspan>
+                </text>
+                <g id="check-box" transform="translate(87.000000, 18.000000) rotate(-180.000000) translate(-87.000000, -18.000000) translate(69.000000, 0.000000)" fill-rule="nonzero" fill="#E74C3C">
+                    <path d="M32,32 L4,32 L4,4 L24,4 L24,0 L4,0 C1.8,0 0,1.8 0,4 L0,32 C0,34.2 1.8,36 4,36 L32,36 C34.2,36 36,34.2 36,32 L36,16 L32,16 L32,32 Z" id="Shape"></path>
+                </g>
+                <text id="N" transform="translate(86.500000, 18.500000) rotate(-180.000000) translate(-86.500000, -18.500000) " font-family="Raleway-SemiBold, Raleway" font-size="24" font-weight="500" fill="#E74C3C">
+                    <tspan x="77.296" y="27">N</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

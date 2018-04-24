@@ -1,0 +1,27 @@
+{{!-- pages/statistics-work.hbs --}}
+
+{{#> layouts/base title="Events" }}
+
+  {{#*inline "header-block"}}
+    {{> includes/header
+      header-src="img/hero-1.png"
+      header-alt="Header 13 alt title"
+    }}
+  {{/inline}}
+
+  {{#> sidebar-block}}
+
+  {{/sidebar-block}}
+
+
+  {{#*inline "container-block"}}
+      {{> layouts/statistics-list}}
+      {{> includes/chart-sales}}
+  {{/inline}}
+
+
+  {{#*inline "scripts-block"}}
+
+  {{/inline}}
+
+{{/layouts/base}}

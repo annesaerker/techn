@@ -1,0 +1,9 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="css/app.css"><meta name="viewport" content="width=device-width,initial-scale=1"><title></title></head><body><div id="login"><div class="box"><div class="login-container"><form class="login" name="myForm" submit="GET" id="registration" onsubmit="return validateForm()" action="/events"><h3>Login</h3><ul><li><input id="fName" type="text" name="fname" value="root" placeholder="Username"></li><li><input id="fPass" type="password" name="Password" value="" placeholder="Password"></li></ul><button id="btnLogin" type="button" name="button" onclick="myFunction()">Login</button> <span>Forgot your password?</span></form></div></div></div><script type="text/javascript">function myFunction() {
+        var fName = document.getElementById('fName').value;
+        var fPass = document.getElementById('fPass').value;
+      if(fName == "root" && fPass == "root"){
+        document.getElementById("registration").submit();
+      }else{
+        console.log("asdasd")
+      }
+        }</script></body></html>

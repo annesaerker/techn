@@ -1,0 +1,72 @@
+.editUser{
+  display: none;
+  z-index: 1;
+  position: absolute;
+  background: $primaryBlue;
+  width: 100%;
+  max-width: 200px;
+  right: -20px;
+  top: 33px;
+  height: 246px;
+  border-radius: 2px;
+  ul {
+    padding: 0 20px 10px 20px ;
+    margin: 0;
+    li:nth-child(1){
+      p{
+        color: white;
+      }
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+    li {
+      list-style-type: none;
+      a{
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        svg{
+          height:20px;
+        }
+        p{
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+#btnLogout{
+  a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: $primaryBlue;
+  }
+  background-color: white;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  border:none;
+  margin: 0 auto;
+  padding: 5px 20px;
+  svg{
+    margin-right: 20px;
+  }
+}
+
+.editUser-is-collapsed{
+  display: inline-block;
+}
+@media screen and (max-width: 670px){
+  #editUserMobile{
+    top: 72px;
+    right:0;
+  }
+}

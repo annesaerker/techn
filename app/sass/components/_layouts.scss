@@ -1,0 +1,125 @@
+.events-grid-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1058px;
+  // height: 100%;
+  margin: 0 10px 0 0px;
+}
+
+#events-container{
+  width: 100%;
+  height:100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.event-time-filter{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  max-width: 150px;
+  width: 100%;
+}
+.event-time-filter-box{
+  position: fixed;
+  height: 100%;
+  align-items: center;
+  max-height: 610px;
+  padding-left: 50px;
+  // margin-top: 350px;
+  &:before{
+    content: "";
+    height: 100%;
+    max-height: 500px;
+    border-left: 1px solid #E74C3C;
+    left: 20px;
+    position: absolute;
+  }
+}
+
+.event-time-filter-box-container{
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+  div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    .month{
+      margin-right: 10px;
+    }
+    .month, .year{
+      border-bottom: 1px solid #CACACA;
+    }
+  }
+  div:nth-child(2){
+    color:#999B9F;
+  }
+  div:nth-child(3){
+    color:#4E5058;
+  }
+  div:nth-child(4){
+    color:#999B9F;
+  }
+}
+
+.arrow-up{
+  width: 100%;
+  justify-content: center !important;
+  svg{
+    padding:0px 10px;
+  }
+}
+
+
+.partners-grid-container {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+}
+
+
+
+.partners-card {
+    background: #fff;
+    text-decoration: none;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    // min-height: 100%;
+    position: relative;
+    padding: 2rem;
+    top: 0;
+    transition: all 0.1s ease-in;
+
+    &:hover {
+        top: -2;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    article span {
+      display: flex;
+      img {
+        margin-right: 7px;
+      }
+    }
+}
+
+.partners-card .partner-thumb {
+    padding-bottom: 60%;
+    background-size: contain;
+    background-position: center center;
+}
+
+@media screen and (max-width: 842px){
+
+  .events-grid-container{
+    margin: 0px;
+  }
+}

@@ -1,0 +1,33 @@
+{{!-- pages/partners.hbs --}}
+
+{{#> layouts/base title="Partners" }}
+
+{{#*inline "header-block"}}
+  {{> includes/header-partners
+    header-src="img/hero-1.png"
+    header-alt="Header 13 alt title"
+  }}
+
+
+
+    {{/inline}}
+
+      {{#> sidebar-block}}
+
+    {{/sidebar-block}}
+
+
+
+
+  {{#*inline "container-block"}}
+      {{> layouts/partners-list}}
+  {{/inline}}
+
+
+  {{!-- Let's add a script for this layout. --}}
+  {{#*inline "scripts-block"}}
+    <script src="../.././js/main.js"></script>
+    <script src=".././helpers/links.js"></script>
+  {{/inline}}
+
+{{/layouts/base}}

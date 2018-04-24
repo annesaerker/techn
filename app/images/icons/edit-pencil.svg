@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>pencil-edit-button (1)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="HD-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Event-Hover" transform="translate(-194.000000, -22.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="pencil-edit-button-(1)" transform="translate(194.000000, 22.000000)">
+                <path d="M7.46189638,2.0026454 L9.90296784,4.45564876 L3.72394191,10.6649354 L1.28425447,8.21193199 L7.46189638,2.0026454 Z M11.7552689,1.41103724 L10.666645,0.31708196 C10.2459294,-0.105693987 9.56277427,-0.105693987 9.14062932,0.31708196 L8.09783645,1.36498172 L10.5389079,3.81800788 L11.7552689,2.59568996 C12.081577,2.26776101 12.081577,1.73894338 11.7552689,1.41103724 Z M0.00679292588,11.6598257 C-0.0376314435,11.8607372 0.142879426,12.0407641 0.342834466,11.9919042 L3.06299896,11.329138 L0.623311511,8.8761346 L0.00679292588,11.6598257 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

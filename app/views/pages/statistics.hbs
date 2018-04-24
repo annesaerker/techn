@@ -1,0 +1,26 @@
+{{!-- pages/statistics.hbs --}}
+
+{{#> layouts/base title="Statistics" }}
+
+  {{#*inline "header-block"}}
+    {{> includes/header
+      header-src="img/hero-1.png"
+      header-alt="Header 13 alt title"
+    }}
+  {{/inline}}
+
+  {{#> sidebar-block}}
+
+  {{/sidebar-block}}
+
+
+  {{#*inline "container-block"}}
+      {{> layouts/statistics-list}}
+  {{/inline}}
+
+
+  {{#*inline "scripts-block"}}
+    
+  {{/inline}}
+
+{{/layouts/base}}

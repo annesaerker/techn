@@ -1,0 +1,26 @@
+{{!-- pages/statistics.hbs --}}
+
+{{#> layouts/base title="Create Partner" }}
+
+  {{#*inline "header-block"}}
+    {{> includes/header-partners
+      header-src="img/hero-1.png"
+      header-alt="Header 13 alt title"
+    }}
+  {{/inline}}
+
+  {{#> sidebar-block}}
+
+  {{/sidebar-block}}
+
+
+  {{#*inline "container-block"}}
+      {{> layouts/create-partner-form}}
+  {{/inline}}
+
+
+  {{#*inline "scripts-block"}}
+
+  {{/inline}}
+
+{{/layouts/base}}
